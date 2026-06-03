@@ -6,11 +6,6 @@ export enum Wound {
   ANKLE_SPRAIN = 'ANKLE_SPRAIN',
 }
 
-export const CANT_WALK_WOUNDS: Wound[] = [
-  Wound.LEG_FRACTURE,
-  Wound.KNEE_SPRAIN,
-  Wound.ANKLE_SPRAIN,
-];
 
 export class Patient {
   id: string;
@@ -25,6 +20,10 @@ export class Patient {
   }
 
   get birthdateFormatted(): string {
+    throw new Error('Not implemented');
+  }
+
+  get age(): number {
     throw new Error('Not implemented');
   }
 
