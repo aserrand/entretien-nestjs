@@ -44,3 +44,10 @@ Le service `PatientService` gère une liste interne de patients.
 - **Ne pas modifier** les fichiers `*.spec.ts`
 - **Ne pas modifier** les énumérations `Wound` ni la constante `CANT_WALK_WOUNDS` dans `patient.entity.ts`
 - Vous pouvez ajouter des méthodes privées si nécessaire
+
+
+## Bonus
+
+Développer la fonctionnalité suivante :
+
+![Ticket bonus — Ajouter catégorie d'âge au patient](bonus-ticket.png)
